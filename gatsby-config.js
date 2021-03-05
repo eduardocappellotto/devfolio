@@ -3,56 +3,51 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Eduardo Cappellotto',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Eduardo Cappellotto | Desenvolvedor Front-End`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Eduardo Cappellotto | Desenvolvedor Front-End`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@duducerioni`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/eduardocappellotto`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/eduardo-cappellotto-991529170/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Brasil, 23 anos, desenvolvedor focado em front-end utilizando Javascript ES6, Typescript, Vue.js, Quasar`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Pokédex',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Todo desenvolvedor front-end em sã consciência já fez uma pokédex ( e eu não podia ser diferente. ). A mesma foi realizada utilizando React.js e Bootstrap 4, consumindo dados da famosa PokéApi.',
+        link: 'https://github.com/eduardocappellotto/Pokedex',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: '1997',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Uma API em Node.js onde busquei exercitar diversos conceitos de boas práticas para uma API Rest',
+        link: 'https://github.com/eduardocappellotto/1997',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Segredos',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Um projeto web onde busquei implantar diversos métodos de login como Google OAuth 2.0, bem como melhorar a segurança de dados sensíveis, como senhas e seeds.',
+        link: 'https://github.com/eduardocappellotto/Segredos',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Skylar - Pecege | Piracicaba - SP - Brasil',
+        description: 'Desenvolvedor Front-End - Estágio - Mar/2020 - Out/2020',
+        link: 'https://skylar.ai/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Solarview | Remoto',
+        description: 'Desenvolvedor Front-End Jr, Out/2020 - Presente',
+        link: 'https://solarview.com.br/solarview-business/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +55,20 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'HTM(L), CSS & SASS, JavaScript (ES6+), Typescript, Vue.js, React.js, Node.js',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Databases & Query languages',
+        description: 'MongoDB, MySQL 8.0, Firestore, GraphQL',
+      },
+      {
+        name: 'Testing Tools',
+        description: 'Cypress, Jest',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Google Firebase, Sendgrid, Zendesk, Agile / Scrum',
       },
     ],
   },
